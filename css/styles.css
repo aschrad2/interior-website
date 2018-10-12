@@ -4,23 +4,21 @@ body {
   background-color: black;
 }
 
-
-
 .after-column {
   float: right;
   width: 50%;
   margin-bottom: 20px;
+  background-image: linear-gradient(to left, rgba(0,0,255,0.3), rgba(192,192,192,0.3));
 }
 
 .before-column {
   float: left;
   width: 50%;
   margin-bottom: 20px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
 img {
   width: 45em;
   height: 30em;
 }
-
-
